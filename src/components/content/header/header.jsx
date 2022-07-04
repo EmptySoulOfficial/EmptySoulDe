@@ -1,8 +1,8 @@
 import React from 'react'
 import './header.scss'
 
-import Navigation from '../../components/navigation/navigation'
-import Stage from '../../components/stage/stage'
+import Navigation from '../../navigation/navigation'
+import Stage from '../../stage/stage'
 
 function Header () {
 
