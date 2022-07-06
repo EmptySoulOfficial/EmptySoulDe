@@ -1,7 +1,8 @@
 # Empty Soul - React-App project
 
 ### installed npm:
--scss
+- scss
+- classnames
 
 ### Build:
 npm start
@@ -18,3 +19,9 @@ npm start
 - navigation
 - stage
 - readmes
+
+#### 001-page-header
+- burgermenu
+- buttons
+- stage
+- headphone icon

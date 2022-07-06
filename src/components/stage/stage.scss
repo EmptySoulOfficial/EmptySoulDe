@@ -4,4 +4,14 @@
     top: 0px;
     position: absolute;
     z-index: 100;
+
+    &-container{
+        margin-top: 80px;
+        display: flex;
+
+        &--left, &--right{
+            width: 50%;
+        }
+    }
+
 }

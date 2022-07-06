@@ -1,7 +1,25 @@
+
 .navigation {
     width : 100%;
     height: 80px;
     position: fixed;
     top: 0px;
     z-index: 900;
+}
+
+.navigation-container {
+    width: calc(100% - 100px);
+    height: 100%;
+    padding: 0 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigation-buttons:hover .icon{
+    fill: var(--highlight);
+}
+
+.navigation-buttons--disabled {
+display: none;
 }

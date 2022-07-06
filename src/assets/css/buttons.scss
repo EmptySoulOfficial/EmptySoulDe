@@ -1,0 +1,20 @@
+.button-green {
+    width: 180px;
+    height: 60px;
+    border: 2px solid var(--highlight);
+    transition: var(--default-transition);
+    color: var(--white);
+}
+
+.button-green:hover {
+background-color: var(--highlight);
+}
+
+.button-green-preselected {
+    width: 180px;
+    height: 60px;
+    border: 2px solid var(--highlight);
+    transition: var(--default-transition);
+    color: var(--white);
+    background-color: var(--highlight);
+}

@@ -1,0 +1,118 @@
+// Burgermenu color
+.menuButton-bar--color, .menuButton-bar--color:before, .menuButton-bar--color:after{
+    background-color: var(--white);
+}
+
+// Burgermenu active color
+.menuButton-bar--color-open, .menuButton-bar--color-open:before, .menuButton-bar--color-open:after {
+    background-color: var(--highlight); 
+}
+
+.menuButton-bar-active--color, .menuButton-bar-active--color:before, .menuButton-bar-active--color:after{
+  background-color: var(--highlight);
+}
+
+// Burgermenu style
+.menuButton-container {
+    width: var(--burgermenu-width);
+    height: 20px;
+    display: flex;
+  }
+  
+  .menuButton {
+    width: var(--burgermenu-width);
+    height: 100%;
+    padding: 0px;
+    background-color: transparent;
+    border: 0px solid;
+    outline: none;
+    transition: 0.3s;
+  }
+  
+  .menuButton-bar {
+    width: 100%;
+    height: 2px;
+    display: flex;
+    pointer-events: none;
+    
+    position: relative;
+
+    &-active-1 {
+      height: 2px;
+      margin-top: -2px;
+      position: absolute;
+      width: 0;
+      background-color: var(--highlight);
+      transition: var(--default-transition);
+      transition-delay: 0.1s;
+    }
+
+    &-active-2 {
+      height: 2px;
+      margin-top: -10px;
+      position: absolute;
+      width: 0;
+      background-color: var(--highlight);
+      transition: var(--default-transition);
+      transition-delay: 0.2s;
+    }
+
+    &-active-3 {
+      height: 2px;
+      margin-top: 6px;
+      position: absolute;
+      width: 0;
+      background-color: var(--highlight);
+      transition: var(--default-transition);
+    }
+  }
+
+  .menuButton-bar:before {
+    transition: 0.3s ease-in-out;
+    content: '';
+    display: inline-block;
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    margin-top: 40%;
+  }
+
+  .menuButton-bar:after{
+    @extend #{'.menuButton-bar, :before'};
+    margin-top: -40%;
+  }
+
+  .menuButton:hover .menuButton-bar-active-1{
+    width: var(--burgermenu-width);
+  }
+
+  .menuButton:hover .menuButton-bar-active-2{
+    width: var(--burgermenu-width);
+  }
+
+  .menuButton:hover .menuButton-bar-active-3{
+    width: var(--burgermenu-width);
+  }
+
+  .menuButton-hidden{
+    visibility: hidden;
+  }
+
+  .menuButton-bar-open {
+    width: 0 !important;
+    transition-delay: 0s;
+
+    &-2 {
+      width: var(--burgermenu-width);
+      transform: rotate(45deg);
+      margin-top: -2px;
+      transition-delay: 0s;
+    }
+
+    &-3 {
+      width: var(--burgermenu-width);
+      transform: rotate(-45deg);
+      margin-top: -2px;
+      transition-delay: 0s;
+    }
+  }
