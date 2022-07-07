@@ -4,14 +4,44 @@
     top: 0px;
     position: absolute;
     z-index: 100;
+    background: url('../../assets/graphics/templates/bgtemplate.png');
+    background-size: 4px;
 
     &-container{
-        margin-top: 80px;
+        margin-top: var(--navheight);
         display: flex;
+        height: calc(100% - var(--navheight));
 
         &--left, &--right{
             width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
+        &--right {
+            padding-right: 70px;
+        }
+    }
+
+    &-content {
+        max-width: 590px;
+        padding-left: var(--space25);
+    }
+
+    &-buttons-container {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: var(--space50);
+    }
+
+    &-button-latestmusic{
+        margin-right: var(--space25);
+    }
+
+    .EmptySoulLogoFont {
+        width: 100%;
+        max-width: 590px;
+        height: 130px;
     }
 
 }

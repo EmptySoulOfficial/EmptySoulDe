@@ -1,20 +1,32 @@
 import React from 'react'
 import './stage.scss'
 
+import Logo from '../../assets/graphics/logos/EmptySoul_Logo-Font.svg'
+
 function Stage () {
     return (
     <>
     <div className="stage">
+        <div className="stage-wallpaper--container">
+        </div>
         <div className="stage-container">
             <div className="stage-container--left">
 
             </div>
             <div className="stage-container--right">
-                <div className="logo-container">
-
+                <div className="stage-content">
+                    	<div className="logo-container">
+                    	    <img src={Logo} alt="Empty Soul Logo" className="EmptySoulLogoFont"/>
+                    	</div>
+                    	<div className="stage-text-container">
+                    	<p>Electronic Metal Songwriter aus Deutschland.</p>
+                    	<p>Blablablabl</p>
+                    	</div>
+                    	<div className="stage-buttons-container">
+                    	    <button className="button-green stage-button-latestmusic">Neuste Musik</button>
+                    	    <button className="button-green">Über mich</button>
+                    	</div>
                 </div>
-                <button className="button-green">Neuste Musik</button>
-                <button className="button-green-preselected">Über mich</button>
             </div>
         </div>
     </div>

@@ -10,7 +10,7 @@ const Navigation = ({setMenuOpen,menuOpen}) => {
         <nav className="navigation">
             <div className="navigation-container">
                 <div className="navigation-container--left">
-                    <button className="navigation-buttons"><Icon name="headphones" color="var(--white)" size={20} /></button>
+                    <button className="navigation-buttons navigation-buttons-headphones"><Icon name="headphones" color="var(--white)" size={20} /></button>
                     <button className="navigation-buttons--disabled"><Icon name="play" color="var(--white)" size={20} /></button>
                 </div>
                 <div className="navigation-container--right">
