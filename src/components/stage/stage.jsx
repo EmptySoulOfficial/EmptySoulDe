@@ -7,8 +7,10 @@ function Stage () {
     return (
     <>
     <div className="stage">
-        <div className="stage-wallpaper--container">
-        </div>
+        <img src="./media/backgrounds/wallpaper_demo.jpg" className="stage-wallpaper" alt="header wallpaper" />
+        {/* <video autoPlay muted loop id="myVideo" className="stage-wallpaper"> */}
+            {/* <source src="./media/backgrounds/video_stock.webm" type="video/webm" /> */}
+        {/* </video> */}
         <div className="stage-container">
             <div className="stage-container--left">
 
