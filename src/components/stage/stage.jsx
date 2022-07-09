@@ -7,13 +7,17 @@ function Stage () {
     return (
     <>
     <div className="stage">
-        <img src="./media/backgrounds/wallpaper_demo.jpg" className="stage-wallpaper" alt="header wallpaper" />
+        {/* <img src="./media/backgrounds/wallpaper_demo.jpg" className="stage-wallpaper" alt="header wallpaper" /> */}
         {/* <video autoPlay muted loop id="myVideo" className="stage-wallpaper"> */}
             {/* <source src="./media/backgrounds/video_stock.webm" type="video/webm" /> */}
         {/* </video> */}
         <div className="stage-container">
             <div className="stage-container--left">
-
+                <div className="stage-picture-container">
+                    <div className="stage-picture-background">
+                        <img src="./media/profile/me-test.png" className="stage-picture" alt="" />
+                    </div>
+                </div>
             </div>
             <div className="stage-container--right">
                 <div className="stage-content">

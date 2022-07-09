@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 
 const userWebLanguage = () => {
   var webLanguage = navigator.language.split('-')[0]
