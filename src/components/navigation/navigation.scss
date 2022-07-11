@@ -10,7 +10,7 @@
 .navigation-container {
     width: calc(100% - var(--space100));
     height: 100%;
-    padding: 0 50px;
+    padding: 0 var(--space50);
     display: flex;
     align-items: center;
     justify-content: space-between;

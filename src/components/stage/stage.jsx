@@ -15,7 +15,7 @@ function Stage () {
             <div className="stage-container--left">
                 <div className="stage-picture-container">
                     <div className="stage-picture-background">
-                        <img src="./media/profile/me-test.png" className="stage-picture" alt="" />
+                        {/* <img src="./media/profile/me-test.png" className="stage-picture" alt="" /> */}
                     </div>
                 </div>
             </div>
@@ -36,7 +36,6 @@ function Stage () {
             </div>
         </div>
     </div>
-    
     </>
     );
 }
