@@ -1,7 +1,31 @@
+
 .navigation {
     width : 100%;
-    height: 80px;
+    height: var(--navheight);
     position: fixed;
     top: 0px;
     z-index: 900;
+}
+
+.navigation-container {
+    width: calc(100% - var(--space100));
+    height: 100%;
+    padding: 0 var(--space50);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigation-buttons:hover .icon{
+    fill: var(--highlight);
+}
+
+.navigation-buttons--disabled {
+display: none;
+}
+
+.navigation-buttons-headphones {
+    /* ist an menu bar (20x20 ohne- 26x26 mit Abstand oben und unten) ausgerichtet */
+    width: 26px;
+    height: 26px;
 }

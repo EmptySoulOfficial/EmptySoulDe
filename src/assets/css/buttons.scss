@@ -1,0 +1,27 @@
+:root {
+    --button-width: 180px;
+    --button-height: 58px;
+    --button-border: 2px solid;
+}
+
+.button-green {
+    width: var(--button-width);
+    height: var(--button-height);
+    border: var(--button-border) var(--button-hover);
+    transition: var(--default-transition);
+    color: var(--button-text);
+}
+
+.button-green:hover {
+background-color: var(--button-hover);
+color: var(--button-hover-text);
+}
+
+.button-green-preselected {
+    width: var(--button-width);
+    height: var(--button-height);
+    border: var(--button-border) var(--button-hover);
+    transition: var(--default-transition);
+    color: var(--button-hover-text);
+    background-color: var(--button-hover);
+}

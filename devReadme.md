@@ -1,20 +1,18 @@
 # Empty Soul - React-App project
 
 ### installed npm:
--scss
+- scss
+- classnames
 
 ### Build:
 npm start
 
-### Logs:
-----
-#### basic-setup
-- basic app structure
-- icons added
-- global styles
-- browser language asset
-- header component
-- page segment component
-- navigation
-- stage
-- readmes
+### Scss
+- assets/index.scss and theme/theme.scss are imported by App.scss
+
+### ToDo:
+- page route
+- scroll bar (not used-remove?)
+- menu
+- cookie popup
+- accessibility support
