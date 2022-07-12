@@ -8,7 +8,7 @@
         padding-top: var(--navheight);
         display: flex;
         height: calc(100% - var(--navheight));
-        // background: url('../../assets/graphics/templates/bgtemplate.png');
+        background: url('../../assets/graphics/templates/bgtemplate.png');
         background-size: 4px;
 
         &--left, &--right{
@@ -32,7 +32,6 @@
 
     &-content {
         max-width: 590px;
-        padding-left: var(--space25);
     }
 
     &-buttons-container {
@@ -47,7 +46,7 @@
 
     .EmptySoulLogoFont {
         width: 100%;
-        max-width: 590px;
+        max-width: 520px;
         height: 130px;
     }
 
@@ -94,5 +93,11 @@
         margin-top: 25px;
         height: calc(100% - 28%);
         max-height: 720px;
+    }
+
+    &_text{
+        max-width: 420px;
+        width: 80%;
+        margin-top:0;
     }
 }

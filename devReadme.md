@@ -15,3 +15,4 @@ npm start
 - scroll bar (not used-remove?)
 - menu
 - cookie popup
+- accessibility support
