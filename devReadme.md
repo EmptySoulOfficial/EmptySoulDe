@@ -12,6 +12,6 @@ npm start
 
 ### ToDo:
 - page route
-- scroll bar
+- scroll bar (not used-remove?)
 - menu
 - cookie popup

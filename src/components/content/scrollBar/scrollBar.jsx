@@ -7,7 +7,7 @@ function ScrollBar () {
 <>
 <div className="scrollBar">
     <div className="scrollBar-container">
-        <input type="range" className="scrollBar-range"/>        
+        <input type="range" className="slider" min="0" max="100" step="1" orient="vertical"/>        
     </div>
 </div>
 </>
