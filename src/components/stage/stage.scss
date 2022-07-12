@@ -3,5 +3,101 @@
     height: 100%;
     top: 0px;
     position: absolute;
-    z-index: 100;
+
+    &-container{
+        padding-top: var(--navheight);
+        display: flex;
+        height: calc(100% - var(--navheight));
+        background: url('../../assets/graphics/templates/bgtemplate.png');
+        background-size: 4px;
+
+        &--left, &--right{
+            width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        &--right {
+            padding-right: 70px;
+        }
+    }
+
+    &-wallpaper {
+       width: 100%;
+       height: 100%;
+       position: absolute;
+       object-fit: cover;
+       z-index: -1;
+    }
+
+    &-content {
+        max-width: 590px;
+    }
+
+    &-buttons-container {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: var(--space50);
+    }
+
+    &-button-latestmusic{
+        margin-right: var(--space25);
+    }
+
+    .EmptySoulLogoFont {
+        width: 100%;
+        max-width: 520px;
+        height: 130px;
+    }
+
+    &-picture-container{
+        height: calc(100% - 50px);
+        width: 100%;
+        padding: 25px;
+    }
+
+    &-picture-background{
+        max-width: 560px;
+        height: calc(89% - 25px);
+        max-height: 730px;
+        background-color: var(--gray);
+        width: 100%;
+        margin-top: 12%;
+        margin-left: 250px;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 4px 4px 9px #00000055;
+    }
+
+    &-picture-background:before {
+        content:'';
+        width: 160px;
+        height: 160px;
+        border-left: 3px solid #fff;
+        border-top: 3px solid #fff;
+        margin-left: -40px;
+        margin-top: 25px;
+    }
+
+    &-picture-background:after {
+        @extend #{':before'};
+        align-self: flex-end;
+        margin-top: auto;
+        margin-bottom: 25px;
+        margin-right: -40px;
+        transform: rotate(180deg);
+    }
+
+    &-picture {
+        position: absolute;
+        margin-top: 25px;
+        height: calc(100% - 28%);
+        max-height: 720px;
+    }
+
+    &_text{
+        max-width: 420px;
+        width: 80%;
+        margin-top:0;
+    }
 }
