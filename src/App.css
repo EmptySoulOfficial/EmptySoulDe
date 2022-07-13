@@ -1,2 +1,8 @@
 @import './assets/css/index.scss';
 @import './theme/theme.scss';
+
+.mainEntity{
+    position: absolute;
+    top: 100%;
+    width: 100%;
+}
