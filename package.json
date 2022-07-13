@@ -1,6 +1,6 @@
 {
   "name": "emptysoulde",
-  "version": "08072022:1906",
+  "version": "13072022:1150",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
