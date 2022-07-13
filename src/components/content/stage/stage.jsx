@@ -1,8 +1,8 @@
 import React from 'react'
 import './stage.scss'
 
-import Logo from '../../assets/graphics/logos/EmptySoul_Logo-Font.svg'
-import useParseLanguages from '../../assets/js/parseLanguages.asset'
+import Logo from '../../../assets/graphics/logos/EmptySoul_Logo-Font.svg'
+import useParseLanguages from '../../../assets/js/parseLanguages.asset'
 
 function Stage () {
 
