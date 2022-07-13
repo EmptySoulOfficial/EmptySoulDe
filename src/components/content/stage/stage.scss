@@ -8,7 +8,7 @@
         padding-top: var(--navheight);
         display: flex;
         height: calc(100% - var(--navheight));
-        background: url('../../assets/graphics/templates/bgtemplate.png');
+        background: url('../../../assets/graphics/templates/bgtemplate.png');
         background-size: 4px;
 
         &--left, &--right{

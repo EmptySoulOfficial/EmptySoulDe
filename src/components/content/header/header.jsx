@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './header.scss'
 
 import Navigation from '../../navigation/navigation'
-import Stage from '../../stage/stage'
+import Stage from '../stage/stage'
 
 
 function Header () {

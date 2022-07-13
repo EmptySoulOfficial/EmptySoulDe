@@ -8,7 +8,7 @@ function DemoContent (){
     return(
         <>
         <div className="DemoContent" >
-            <h2 id="test">{lang_text.DemoTitle}</h2>
+            <h2 id="democontent">{lang_text.DemoTitle}</h2>
             <div className="DemoContent-container">
 
             </div>
