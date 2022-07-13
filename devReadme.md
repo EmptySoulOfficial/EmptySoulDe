@@ -31,7 +31,6 @@ example: import AboutMe from "../Path/AboutMe/AboutMe";
     }
 
 ### ToDo:
-- page route
 - scroll bar (not used-remove?)
 - menu
 - cookie popup
