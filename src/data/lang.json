@@ -1,11 +1,13 @@
 {"de":{
     "example_text": "Beispiel Text",
+    "DemoTitle": "titel",
     "stage_text": "Electronic-Metal Songwriter aus Deutschland. Blablablablabla Deutscher Text",
     "stage_button_music": "Neuste Musik",
     "stage_button_aboutme": "Über Mich"
     
  },
  "en":{
+  "DemoTitle": "title",
   "example_text": "Example text",
   "stage_text": "Electronic-Metal songwriter from Germany. Blablablablabal english text",
   "stage_button_music": "Latest Musik",

@@ -30,7 +30,7 @@ function Stage () {
                     	    <img src={Logo} alt="Empty Soul Logo" className="EmptySoulLogoFont"/>
                     	</div>
                     	<div className="stage-text-container">
-                    	<p className="stage_text">{lang_text.stage_text}</p>
+                    	<p className="stage-text">{lang_text.stage_text}</p>
                     	</div>
                     	<div className="stage-buttons-container">
                     	    <button className="button-green stage-button-latestmusic">{lang_text.stage_button_music}</button>

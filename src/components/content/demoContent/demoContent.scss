@@ -1,0 +1,10 @@
+.DemoContent{
+    width: 100%;
+    height: 3000px;
+    padding-top: var(--space100);
+    background-color: #ff000033;
+
+    &-container {
+        padding-top: var(--space100);
+    }
+}
