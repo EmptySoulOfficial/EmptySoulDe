@@ -4,16 +4,45 @@
 - scss
 - classnames
 - react-router-dom@5
+- jQuery
 
 ### Build:
 npm start
+____
+### Basics:
+#### styles
+- Each component has its own style file named after its own name.
+- Basic styles, how certain environment variables, colors and other global looks can be found in the assets folder.
+- More precise styles, such as which font size is used where, is defined via the Theme.scss.
+- Theme.scss and index.scss from the scss-asset folder are both imported by the App.css
 
-### Scss
-- assets/index.scss and theme/theme.scss are imported by App.scss
+#### fonts
+- All fonts can be found in the src/assets/fonts folder
+- The fonts are imported from fonts.scss in the asset folder (assets/css/fonts) and applied in theme.scss.
 
-### smooth scrollalble buttons
-to activate smooth scrolling effect (on click) for a button,
-use "button-scroll" as class name.
+#### graphics
+- Folder: src/assets/graphics
+- All Icons are stored in the Icon.svg in the icons folder.
+
+#### public graphics
+- Folder: public/media/
+- Here are media files such as Wallpaper/backgrounds, imgaes, thumbnails and favicons.
+
+#### how are components imported
+- Most of the components in the src/Components folder are imported from the components in the content folder.
+- In the Components/content folder there are larger blocks that are loaded into the pages.
+- Page (src/pages/) components are the main "pages" that app.js uses to display
+
+______________
+
+### Demo content
+- Path: src/componetns/content/demoContent
+
+Copy and paste this component to create some page blocks/contents.
+Please rename and fill it, with your own informations.
+In order for the component to be correctly integrated and functional, 
+it must be imported into a "page" component. (src/pages/[YourPage])
+Normally, the components are wrapped with the page "MainEntity" (e.g. Home-MainEntity)
 
 ### page routing (routeData.js)
 
@@ -22,13 +51,19 @@ example: import AboutMe from "../Path/AboutMe/AboutMe";
 
 #### map page route
     {
-      ItemName: {de: 'Über Mich', en: 'About Uns'}, // Displayed Name for navigation links (old)
+      ItemName: {de: 'Über Mich', en: 'About Uns'}, // Displayed name for navigation links (old)
       RouteType: 'Link', // Changes the type of routing and button links. 
                          // "Link": uses fake paths like "pagename.com/impressum" to navigate. 
                          // "href": classic anchor.
         route: '/AboutMe', // Visible path name. Use "#IdName" for anchor type.
         component: AboutMe //The component, where everything happen. If anchor type is used, use the same component, where the anchor is linked.
     }
+
+### smooth scrollalble buttons
+to activate smooth scrolling effect (on click) for a button,
+use "button-scroll" as class name.
+____________________________________
+////////////////////////////////////
 
 ### ToDo:
 - scroll bar (not used-remove?)
