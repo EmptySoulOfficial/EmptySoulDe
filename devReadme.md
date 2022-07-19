@@ -42,7 +42,7 @@ Copy and paste this component to create some page blocks/contents.
 Please rename and fill it, with your own informations.
 In order for the component to be correctly integrated and functional, 
 it must be imported into a "page" component. (src/pages/[YourPage])
-Normally, the components are wrapped with the page "MainEntity" (e.g. Home-MainEntity)
+Normally, the components are wrapped with the page-div "MainEntity" (e.g."Home-MainEntity")
 
 ### page routing (routeData.js)
 
@@ -64,6 +64,9 @@ to activate smooth scrolling effect (on click) for a button,
 use "button-scroll" as class name.
 ____________________________________
 ////////////////////////////////////
+
+### Markdown Preview:
+Use strg+k v to display readme preview via Markdown Preview Enchanced
 
 ### ToDo:
 - scroll bar (not used-remove?)
