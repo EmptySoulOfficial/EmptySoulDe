@@ -55,7 +55,7 @@ example: import AboutMe from "../Path/AboutMe/AboutMe";
 
 #### map page route
     {
-      ItemName: {de: 'Über Mich', en: 'About Uns'}, // Displayed name for navigation links (old)
+      ItemName: {de: 'Über Mich', en: 'About me'}, // Displayed name for navigation links (old)
       RouteType: 'Link', // Changes the type of routing and button links. 
                          // "Link": uses fake paths like "pagename.com/impressum" to navigate. 
                          // "href": classic anchor.
