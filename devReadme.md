@@ -1,13 +1,17 @@
 # Empty Soul - React-App project
 
+### Start react scripts:
+npm start
+
+### Build
+npm build
+_____
+
 ### installed npm:
 - scss
 - classnames
 - react-router-dom@5
 - jQuery
-
-### Build:
-npm start
 ____
 ### Basics:
 #### styles
