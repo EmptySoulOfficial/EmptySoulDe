@@ -1,7 +1,7 @@
 ## EmptySoul.de
 ### Official Webpage of EmptySoul
-#### created by steve arizona
+#### created and designed by steve arizona
 
 [emptysoul.de](https://www.emptysoul.de)
 
-#### current version: 13072022:2159
+#### current version: 19072022:1101

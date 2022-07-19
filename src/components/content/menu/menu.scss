@@ -1,0 +1,19 @@
+.Menu{
+    background-color: #0000ff33;
+    position: fixed;
+    width: 0%;
+    height: 100%;
+    right: 0;
+    transition:var(--default-transition);
+}
+
+.Menu-open{
+    width: 100%;
+}
+
+.Menu-container--right {
+    width: 50%;
+    height: 100%;
+    float: right;
+    background-color: #0000ff33;
+}

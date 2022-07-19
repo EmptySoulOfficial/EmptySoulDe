@@ -4,8 +4,10 @@ import './Privacy.scss'
 function Privacy () {
     return(
     <>
-        <div className="mainEntity Privacy">
+        <div className="Privacy">
+            <div className="Privacy-MainEntity">
 
+            </div>
         </div>
     </>
     );

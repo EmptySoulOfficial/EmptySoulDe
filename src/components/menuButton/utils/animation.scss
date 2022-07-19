@@ -1,0 +1,94 @@
+//activ animation open
+:root {
+  --cubanim: cubic-bezier(0.67, 0.34, 0, 0.85);
+}
+.menuButton-bar-open {
+
+  &-top {
+    transform-origin: center;
+    transform: rotate(0deg);
+    animation-name: menuBarOpen-top;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: var(--cubanim);
+  }
+  
+  &-mid{
+    // width: 0 !important;
+    animation-name: menuBarOpen-mid;
+    animation-duration: 0.25s;
+    animation-fill-mode: forwards;
+    }
+
+  &-bottom {
+    transform-origin: center;
+    transform: rotate(0deg);
+    animation-name: menuBarOpen-bottom;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: var(--cubanim);
+  }
+}
+
+@keyframes menuBarOpen-mid {
+  0%{
+    transform: scaleX(0.75);
+    transform-origin: right;
+    opacity: 1;
+    margin-top: 7px;
+  }
+
+  100%{
+    transform: scaleX(0);
+    transform-origin: right;
+    opacity: 1;
+    margin-top: -2px;
+  }
+  
+}
+
+@keyframes menuBarOpen-top {
+  0%{
+    transform:rotate(0deg);
+    transform-origin: center;
+  }
+
+  50%{
+    transform:rotate(0deg);
+    transform-origin: center;
+  }
+  55%{
+    transform:rotate(0deg);
+    transform-origin: center;
+  }
+
+  100%{
+    transform-origin: center;
+    transform:rotate(-135deg);
+  }
+}
+
+@keyframes menuBarOpen-bottom {
+  0%{
+    margin-top: 7px;
+  }
+
+  50%{
+    margin-top: -2px;
+    transform-origin: center;
+    transform:rotate(0deg);
+  }
+
+  55%{
+    margin-top: -2px;
+    transform-origin: center;
+    transform:rotate(0deg);
+  }
+
+  100%{
+    margin-top: -2px;
+    transform-origin: center;
+    transform:rotate(-45deg);
+  }
+
+}

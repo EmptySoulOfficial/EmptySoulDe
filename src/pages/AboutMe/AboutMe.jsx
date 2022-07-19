@@ -3,8 +3,10 @@ import './AboutMe.scss'
 function AboutMe () {
     return(
     <>
-        <div className="mainEntity AboutMe">
-         
+        <div className="AboutMe">
+            <div className="AboutMe-MainEntity">
+
+            </div>
         </div>
     </>
     );

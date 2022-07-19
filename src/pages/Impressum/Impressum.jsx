@@ -4,8 +4,10 @@ import './Impressum.scss'
 function Impressum () {
     return(
     <>
-        <div className="mainEntity Impressum">
+        <div className="Impressum">
+            <div className="Impressum-MainEntity">
 
+            </div>
         </div>
     </>
     );

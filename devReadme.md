@@ -34,4 +34,24 @@ example: import AboutMe from "../Path/AboutMe/AboutMe";
 - scroll bar (not used-remove?)
 - menu
 - cookie popup
+- 404 page routing
 - accessibility support
+- animaions
+
+### Welche Punkte soll die Seite haben?
+- SocialMedia (Im menu-> Kopfhörer)
+----
+---- Home Bereich (Component: pages/Home)
+
+- Home (Header)
+- Video
+- Latest Release (Aktuellen Song/Album mit playback möglichkeit)
+- Music (Bisher veröffentlichte lieder)
+- Tickets (Shows)
+- Newsletter (E-Mail marketing)
+//footer
+
+---- AboutMe Bereich (Component: pages/AboutMe)
+- AboutMe (Biographie und Gechichte zu mir mit Bilder -> kleine artworks dazu, wie ein bilderbuch ->etwas passiert, dazu ein gezeichnetes bild)
+
+---- Impressum und Datenschutz -> jeweils eigene unter seiten (components: pages/impressum und pages/privacy)

@@ -1,4 +1,5 @@
 import React from 'react'
+import classNames from 'classnames'
 import './navigation.scss'
 import MenuButton from '../menuButton/menuButton.jsx'
 import Icon from '../../assets/js/icon.asset.jsx'
@@ -7,7 +8,7 @@ const Navigation = ({setMenuOpen,menuOpen}) => {
 
     return (
         <>
-        <nav className="navigation">
+        <nav className={classNames('navigation', {'navigation-menu-open': menuOpen,'': !menuOpen })}>
             <div className="navigation-container">
                 <div className="navigation-container--left">
                     <button className="navigation-buttons navigation-buttons-headphones"><Icon name="headphones" color="var(--white)" size={20} /></button>
