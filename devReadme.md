@@ -74,6 +74,7 @@ Use strg+k v to display readme preview via Markdown Preview Enchanced
 
 ### ToDo:
 - scroll bar (not used-remove?)
+    Scrollbar wie bei google sheets (beim scrollen zeigen sich die Menüpunkte)
 - menu
 - cookie popup
 - 404 page routing
