@@ -1,12 +1,12 @@
 import React from 'react'
 import './stage.scss'
 
-import Logo from '../../../assets/graphics/logos/EmptySoul_Logo-Font.svg'
-import useParseLanguages from '../../../assets/js/parseLanguages.asset'
+import Logo from '../../../assets/images/logos/EmptySoul_Logo-Font.svg'
+import { getLang, getLangVarable } from '../../../assets/js/ELanguage/ELanguage.js'
 
 function Stage () {
 
-    const lang_text = useParseLanguages();
+    const eLang = getLang()
 
     return (
     <>
@@ -30,11 +30,11 @@ function Stage () {
                     	    <img src={Logo} alt="Empty Soul Logo" className="EmptySoulLogoFont"/>
                     	</div>
                     	<div className="stage-text-container">
-                    	<p className="stage-text">{lang_text.stage_text}</p>
+                    	<p className="stage-text">{eLang.stage_text}</p>
                     	</div>
                     	<div className="stage-buttons-container">
-                    	    <button className="button-green stage-button-latestmusic">{lang_text.stage_button_music}</button>
-                    	    <button className="button-green">{lang_text.stage_button_aboutme}</button>
+                    	    <button className="button-green stage-button-latestmusic">{eLang.stage_button_music}</button>
+                    	    <button className="button-green">{eLang.stage_button_aboutme}</button>
                     	</div>
                 </div>
             </div>

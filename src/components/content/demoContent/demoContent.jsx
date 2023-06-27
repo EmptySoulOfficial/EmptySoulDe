@@ -1,14 +1,14 @@
 import './demoContent.scss'
-import useParseLanguages from '../../../assets/js/parseLanguages.asset.jsx'
+import { getLang } from '../../../assets/js/ELanguage/ELanguage.js'
 
 function DemoContent (){
 
-    const lang_text = useParseLanguages();
+    const eLang = getLang()
 
     return(
         <>
         <div className="DemoContent" >
-            <h2 id="democontent">{lang_text.DemoTitle}</h2>
+            <h2 id="democontent">{eLang.DemoTitle}</h2>
             <div className="DemoContent-container">
 
             </div>

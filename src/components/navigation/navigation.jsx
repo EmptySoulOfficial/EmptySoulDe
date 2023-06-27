@@ -1,7 +1,7 @@
 import React from 'react'
 import './navigation.scss'
 import MenuButton from '../menuButton/menuButton.jsx'
-import Icon from '../../assets/js/icon.asset.jsx'
+import Icon from '../../assets/js/Icon/Icon.jsx'
 
 const Navigation = ({setMenuOpen,menuOpen}) => {
 
