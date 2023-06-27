@@ -2,7 +2,7 @@ import React from 'react'
 import './stage.scss'
 
 import Logo from '../../../assets/images/logos/EmptySoul_Logo-Font.svg'
-import { getLang, getLangVarable } from '../../../assets/js/ELanguage/ELanguage.js'
+import { getLang } from '../../../assets/js/ELanguage/ELanguage.js'
 
 function Stage () {
 
